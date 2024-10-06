@@ -76,7 +76,7 @@ const SongForm = ({ addSong, editSong, songToEdit, closeModal }) => {
         onChange={(e) => setSong({ ...song, linkMusica: e.target.value })}
         placeholder="Link da Música"
       />
-      <button className='button' type="submit">{songToEdit ? 'Atualizar' : 'Adicionar'} Song</button>
+      <button className='button' type="submit">{songToEdit ? 'Atualizar' : 'Adicionar'} Música</button>
     </form>
   );
 };

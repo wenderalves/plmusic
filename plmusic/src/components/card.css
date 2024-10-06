@@ -1,0 +1,89 @@
+.card__links {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+li {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-sizing: border-box;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+  flex: 1;
+  padding: 10px;
+}
+
+.card>span {
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #555
+}
+
+.card.concluido {
+  text-decoration: line-through;
+  text-decoration: line-through !important;
+}
+
+.card__infos--footer,
+.card__dados {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+  font-size: 11px;
+  color: #6c6c6c;
+}
+
+a.card__button {
+  width: 35px;
+  height: 35px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-edit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.card-edit input {
+  min-width: calc(50% - 20px);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #b3b3b3;
+}
