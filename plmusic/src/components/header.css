@@ -1,0 +1,9 @@
+.button__openmenu {
+    border: none;
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+h1 {
+    color: var(--primary-color);
+}

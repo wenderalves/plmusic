@@ -1,0 +1,138 @@
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 15px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 2px;
+  border: 1px solid #ddd;
+  padding: 4px;
+  border-radius: 2px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 2px;
+}
+
+.textCard {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+  flex: 1;
+}
+
+.textCard>span {
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #555
+}
+
+.textCard.concluido {
+  text-decoration: line-through;
+  text-decoration: line-through !important;
+}
+
+div.dados {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex: 1;
+  font-size: 11px;
+  color: #6c6c6c;
+}
+
+.button {
+  padding: 8px;
+  cursor: pointer;
+  margin: 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  min-width: 28%;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+.controles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.full-row {
+  display: flex;
+  min-width: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+a.linkbutton {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

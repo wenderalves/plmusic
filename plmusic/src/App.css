@@ -1,0 +1,130 @@
+:root {
+  --primary-color: #0f041e;
+  --secondary-color: #6d6d6d;
+  --font-family-default: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-default);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-height: 80%;
+  background-color: #fff;
+  align-self: center;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 12px;
+}
+
+.modal__overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.3);
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.modal .button__close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 999px;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.modal .modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 8px;
+  font-size: 14px;
+}
+
+.modal .modal__header h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.modal .modal__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.modal .modal__content form.insertEditMusic {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.modal .modal__content form .modal__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
