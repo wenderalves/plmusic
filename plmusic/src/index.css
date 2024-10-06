@@ -1,4 +1,3 @@
-
 p,
 h1,
 h2,
@@ -13,6 +12,7 @@ h6 {
 body {
   margin: 0 auto;
   padding: 5px;
+  background-color: #e4e4e4;
 }
 
 h1 {
@@ -33,56 +33,6 @@ button {
   padding: 8px;
   cursor: pointer;
   margin: 8px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 2px;
-  border: 1px solid #ddd;
-  padding: 4px;
-  border-radius: 2px;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-textarea {
-  width: 100%;
-  height: 200px;
-  margin-bottom: 2px;
-}
-
-.textCard {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  text-decoration: none;
-  flex: 1;
-}
-
-.textCard>span {
-  font-weight: 600;
-  font-size: 10px;
-  text-transform: uppercase;
-  color: #555
-}
-
-.textCard.concluido {
-  text-decoration: line-through;
-  text-decoration: line-through !important;
-}
-
-div.dados {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  flex: 1;
-  font-size: 11px;
-  color: #6c6c6c;
 }
 
 .button {
@@ -121,18 +71,4 @@ div.dados {
   flex: 1;
   justify-content: center;
   align-items: center;
-}
-
-a.linkbutton {
-  width: 40px;
-  height: 40px;
-  border-radius: 999px;
-  border: 1px solid #ccc;
-  background-color: #f0f0f0;
-  text-decoration: none;
-  color: #555;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
 }
